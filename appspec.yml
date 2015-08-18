@@ -1,5 +1,5 @@
 version: 0.0
-os: ubuntu
+os: linux
 files:
    - source: /
      destination: /usr/share/nginx/html
@@ -11,6 +11,3 @@ permissions:
      mode: 755
      type:
        - file
-hooks:
-   BeforeInstall:
-   AfterInstall:
